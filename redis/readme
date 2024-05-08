@@ -1,0 +1,14 @@
+Redis
+1. Install redis from the redis documentation -> direct install into docker
+2. To enter into redis cli we have to follow below steps
+   -> docker ps
+   -> docker exec -it <ID> bash
+   -> redis-cli ENTER
+3. Set the value -> set KEY VALUE (Other best way -> set user:1 Dhruvin)
+4. get the value -> get KEY
+5. set user:1 dhruvin nx ( it will create a new key if not exist )
+6. mset - set multiple key:value at one command ( mset user:1 Janhvi user:2 Dhruvin )
+7. mget 0 get multiple ket:value at one command ( mget user:1 user:2 )
+8. set count 0 -> incr count  ( it will increment count by 1 )
+9. All other methods are mention in documentation.
+
